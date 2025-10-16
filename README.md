@@ -49,7 +49,7 @@ Construir un almacen de datos moderno usando MySQL para consolidar los datos de 
 ### BI: Análisis y Reportes (Análisis de Datos)
 Desarollar análisis en SQL para obtener información detallada sobre:
 - **Comportamiento del Cliente**
-- **Rendimiento del Productp**
+- **Rendimiento del Producto**
 - **Tendencias de Ventas**
 
 Está información proporciona a las partes interesadas con métricas claves del negocio para facilitar la toma de decisiones basada en datos.
