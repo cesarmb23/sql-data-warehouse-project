@@ -58,8 +58,7 @@ Está información proporciona a las partes interesadas con métricas claves del
 
 ## Acerca de Mi
 
-Hola todos! Soy Cesar Munar, autodidacta, me encuentro aprendiendo análisis de datos y sus maravillosas herramientas para poder brindar mucho más valor a las empresas a través de los datos, agradecido de poder aprenderlas y hacer la transición a la industria de los datos. 
-
+Hola todos! Soy Cesar Munar, autodidacta, estudiante de análisis de datos, actualmente especializándome en SQL para así brindar mucho más valor a las empresas desde los datos. 
 
 
 
