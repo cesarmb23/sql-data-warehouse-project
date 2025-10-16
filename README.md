@@ -30,3 +30,45 @@ Este repositorio es un excelente recurso para practicar:
 - Desarrollo de Procesos ETL
 - Modelado de Datos
 - Análisis de Datos
+
+## Requerimientos del Proyecto
+
+### Construir el Almacen de Datos (Ingeniería de Datos)
+
+#### Objetivo
+Construir un almacen de datos moderno usando MySQL para consolidar los datos de ventas, permitiendo la elaboración de reportes análiticos y la toma de decisiones basada en datos.
+
+#### Especificaciones
+- **Fuentes de Datos**: Importar datos desde dos fuentes (ERP y CRM) dadas como archivos CSV.
+- **Calidad de Datos**: Limpiar y resolver problemas en la calidad de los datos antes del análisis.
+- **Integración**: Combinar ambas tablas en una sola, usando un modelo de datos fácil de usar para consultas análiticas.
+- **Alcance**: Centrarse solo en el último conjunto de datos; la historización de los datos no es necesarios.
+- **Documentación**: Proveer una documentación clara del modelo de datos como soporte tanto para las partes interesadas como para los equipos de análisis.
+
+---------
+### BI: Análisis y Reportes (Análisis de Datos)
+Desarollar análisis en SQL para obtener información detallada sobre:
+- **Comportamiento del Cliente**
+- **Rendimiento del Productp**
+- **Tendencias de Ventas**
+
+Está información proporciona a las partes interesadas con métricas claves del negocio para facilitar la toma de decisiones basada en datos.
+
+--------
+
+## Acerca de Mi
+
+Hola todos! Soy Cesar Munar, autodidacta, me encuentro aprendiendo análisis de datos y sus maravillosas herramientas para poder brindar mucho más valor en la empresa a través de los datos, agradecido de poder aprenderlas y hacer la transición a la industria de los datos. 
+
+
+
+
+
+
+
+
+
+
+
+
+
