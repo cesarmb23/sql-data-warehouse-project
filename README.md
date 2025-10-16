@@ -11,3 +11,4 @@ Todo el crédito y agradecimientos para el creador del proyecto Baraa Khatib Sal
 
 La arquitectura de datos de este proyecto sigue el modelo **Arquitectura de Medallón** con las capas **Bronce**, **Plata**, y **Oro**.
 
+<img width="1072" height="721" alt="data_architecture" src="https://github.com/user-attachments/assets/519dff89-7bb7-429d-b870-0da17de945c6" />
