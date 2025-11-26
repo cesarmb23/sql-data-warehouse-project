@@ -1,11 +1,24 @@
 /*
 =================================================================================================================================
-Gold Layer
+DDL Script: Create Gold Views
+=================================================================================================================================
+Script Purpose:
+	This script creates views for the Gold layer in the data warehouse.
+	The Gold layer represents the final dimension and fact tables (Star Schema)
 
--- Give new friendly names to each column using Snake Case
--- Create Primary Ley using Surrogate Key using query based using window function (row-number)
+	Each view performs transformations and combines data from the Silver layer
+	to produce a clean, enriched, and business-ready dataset.
+
+Usage:
+	These views can be queried directly for analytics and reporting
 =================================================================================================================================
 */
+
+
+-- =================================================================================================================================
+-- Create Dimension: gold.dim_customers
+-- =================================================================================================================================
+
 
 CREATE VIEW gold.dim_customers AS
 SELECT
@@ -31,13 +44,9 @@ ON ci.cst_key = la.cid;
 SELECT *
 FROM gold.dim_customers;
 
-/*
-=================================================================================================================================
-Gold Layer: Create product dimension
--- Group columns into logical groups
--- friendly names into columns
-=================================================================================================================================
-*/
+-- =================================================================================================================================
+-- Create Dimension: gold.dim_products
+-- =================================================================================================================================
 
 CREATE VIEW gold.dim_products AS
 SELECT
@@ -60,13 +69,9 @@ WHERE prd_end_dt IS NULL; -- Filter out all historical data
 SELECT *
 FROM gold.dim_products;
 
-/*
-=================================================================================================================================
-Gold Layer: Create Sales Fact Table
--- Join Tables using Data LookUp using surrogate keys
--- 
-=================================================================================================================================
-*/
+-- =================================================================================================================================
+-- Create Fact Table: gold.fact_sales
+-- =================================================================================================================================
 
 CREATE VIEW gold.fact_sales AS
 SELECT
