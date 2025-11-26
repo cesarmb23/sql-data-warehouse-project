@@ -4,7 +4,7 @@ Este proyecto demuestra una solución de almacenamiento y análisis de datos, de
 
 Las bases de datos para el proyecto así como el desarrollo del mismo se hace en inglés siguiendo el proyecto guiado.
 
-Todo el crédito y agradecimientos para el creador del proyecto Baraa Khatib Salkini!
+**Todo el crédito y agradecimientos para el creador del proyecto Baraa Khatib Salkini**!
 
 ---------
 ## Arquitectura de Datos
