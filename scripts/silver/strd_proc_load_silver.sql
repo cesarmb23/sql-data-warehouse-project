@@ -4,12 +4,6 @@ Insert into silver.crm_cust_info
 =================================================================================================================================
 */
 
--- Insert into silver.crm_cust_info: To insert data standardized and cleaned
--- Trim: Used on first and last name to remove unwanted spaces
--- Case: Used on gender and marital status to modify letters for friendly words
--- Window function(Rank): to create a flag showing the latest record created
--- Subquery: To work only with the latest record of each cst_id and eliminate duplicates
-
 INSERT INTO silver.crm_cust_info (
 	cst_id,
     cst_key,
@@ -52,15 +46,6 @@ FROM silver.crm_cust_info;
 Insert into silver.crm_prd_info
 =================================================================================================================================
 */
-
--- Substract prd_key first 5 characters to match with column cat from erp_px_cat_g1v2 table AS cat_id > Standardize format with replace
--- Substract prd_key from 7th character to match with column prd_key from crm_sales_details table, using Length to make it dynamic > No need to standardize
--- If there's any null in prd_cost, replace it with 0
--- Use a CASE statement on prd_line to replace abbreviations with user-friendly words
--- Use Lead Window function to 
--- Use LEAD() to have the prd_start_dt as the prd_end_dt and fix invalid orders date
--- Use DATE_SUB to substract one day to the lead window function
--- Modify the create_table to have all columns
 
 INSERT INTO silver.crm_prd_info (
 	prd_id,
